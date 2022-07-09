@@ -1,4 +1,5 @@
-﻿System.Console.WriteLine("Введите радиус круга: ");
-double radius = Convert.ToDouble(Console.ReadLine());
-double area = Math.PI * Math.Pow(radius, 2);
-System.Console.WriteLine("Площадь круга с радиусом {0} равна {1}", radius, area);
+﻿Console.WriteLine("Введите число : ");
+int a = Convert.ToInt32(Console.Read());
+if (a % 2 == 0) Console.WriteLine("Четное");
+else Console.WriteLine("Нечетное");
+Console.ReadKey();
